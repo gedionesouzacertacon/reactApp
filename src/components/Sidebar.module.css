@@ -18,14 +18,6 @@
     margin-top: calc(0px - 1.5rem - 6px); /* Margem negativa da imagem do avatar */
 }
 
-.avatar {
-    width: calc(3rem + 12px); /* Largura é definida baseada no tamanho das bordas, assim o elemento(imagem) não será comprimida por conta das bordas, outra solução(box-sizing: initial;)  */
-    height: calc(3rem + 12px); /* Altura é definida baseada no tamanho das bordas, assim o elemento(imagem) não será comprimida por conta das bordas, outra solução(box-sizing: initial;)  */
-    border-radius: 8px;
-    border: 4px solid var(--gray-800);
-    outline: 2px solid var(--green-500);
-}
-
 .profile strong{
     margin-top: 1rem;
     color: var(--gray-100);
