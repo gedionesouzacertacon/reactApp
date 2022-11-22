@@ -106,8 +106,13 @@
 
 }
 
-.commentForm button[type=submit]:hover {
+.commentForm button[type=submit]:not(:disable):hover { /* O estilo não deve funcionar, quando o botão estiver como desabilitado */
     background: var(--green-300);
+}
+
+.commentForm button[type=submit]:disabled { /* O estilo que será aplicado quando estiver desabilitado */
+    opacity: 0.7;
+    cursor: not-allowed; /* Desabilita o cursor */
 }
 
 .commentList{
